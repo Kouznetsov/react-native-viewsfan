@@ -25,7 +25,7 @@ This library allows to place views in a fan shape as shown below:
 ```
 import React, {Component} from 'react';
 import {StyleSheet, Text, View} from 'react-native';
-import ViewsFan from ""
+import ViewsFan from "react-native-viewsfan"
 
 export default class App extends Component {
 

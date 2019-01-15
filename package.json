@@ -24,6 +24,7 @@
     "metro-react-native-babel-preset": "^0.51.1",
     "react-test-renderer": "^16.7.0"
   },
+  "repository": "https://github.com/Kouznetsov/react-native-viewsfan",
   "files": [
     "LICENSE",
     "index.d.ts",

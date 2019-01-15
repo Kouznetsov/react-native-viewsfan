@@ -71,6 +71,5 @@ ViewsFan.defaultProps = {
 const styles = StyleSheet.create({
     container: {
         flexDirection: "row",
-        backgroundColor: "pink"
     }
 });

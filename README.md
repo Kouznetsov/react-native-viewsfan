@@ -10,7 +10,7 @@ This library allows to place views in a fan shape as shown below:
 
 ### 5 views
 
-[5 views](https://i.imgur.com/2KhpYOY.png)
+![5 views](https://i.imgur.com/2KhpYOY.png)
 
 ## Setup
 

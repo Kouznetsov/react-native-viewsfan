@@ -1,6 +1,6 @@
 {
   "name": "react-native-viewsfan",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": {
     "name": "Karim Harat",
     "email": "harat.karim@gmail.com",
@@ -14,7 +14,7 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^16.7.0",
     "react-native": "^0.57.8"
   },

@@ -1,12 +1,16 @@
 {
   "name": "react-native-viewsfan",
   "version": "1.0.0",
-  "author": "kouznetsov42",
+  "author": {
+    "name": "Karim Harat",
+    "email": "harat.karim@gmail.com",
+    "url": "github.com/kouznetsov"
+  },
   "keywords": ["react-native", "views", "view", "carousel"],
+  "license": "GPL-3.0",
   "private": true,
   "scripts": {
     "reset": "rm -rf yarn.lock; rm -rf node_modules; yarn install",
-    "bundle-android": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },

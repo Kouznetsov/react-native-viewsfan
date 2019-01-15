@@ -1,6 +1,6 @@
 {
   "name": "react-native-viewsfan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Karim Harat",
     "email": "harat.karim@gmail.com",
@@ -8,7 +8,7 @@
   },
   "keywords": ["react-native", "views", "view", "carousel"],
   "license": "GPL-3.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "reset": "rm -rf yarn.lock; rm -rf node_modules; yarn install",
     "start": "node node_modules/react-native/local-cli/cli.js start",
@@ -28,6 +28,7 @@
   "files": [
     "LICENSE",
     "index.d.ts",
+    "README.md",
     "index.js",
     "ViewsFan.js"
   ],

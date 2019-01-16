@@ -1,6 +1,6 @@
 {
   "name": "react-native-viewsfan",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": {
     "name": "Karim Harat",
     "email": "harat.karim@gmail.com",
@@ -19,10 +19,18 @@
     "react-native": "^0.57.8"
   },
   "devDependencies": {
+    "react": "^16.7.0",
+    "react-native": "^0.57.8",
+    "babel-preset-react-native": "^5.0.2",
     "babel-jest": "^23.6.0",
     "jest": "^23.6.0",
-    "metro-react-native-babel-preset": "^0.51.1",
-    "react-test-renderer": "^16.7.0"
+    "react-test-renderer": "^16.7.0",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "jest-enzyme": "^7.0.1",
+    "@babel/runtime": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "react-dom": "^16.7.0"
   },
   "repository": "https://github.com/Kouznetsov/react-native-viewsfan",
   "files": [
@@ -30,10 +38,20 @@
     "index.d.ts",
     "README.md",
     "index.js",
-    "ViewsFan.js"
+    "ViewsFan.js",
+    "__tests__"
   ],
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "transform": {
+      "^.+\\.(js)$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
+    },
+    "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js",
+    "unmockedModulePathPatterns": [
+      "react",
+      "enzyme",
+      "jest-enzyme"
+    ]
   },
   "rnpm": {
     "assets": [

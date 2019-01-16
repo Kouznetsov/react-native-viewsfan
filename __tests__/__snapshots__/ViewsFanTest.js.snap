@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ViewsFan class tests display tests displays without crashing 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    key="0"
+    style={
+      Object {
+        "backgroundColor": "green",
+        "borderRadius": 10,
+        "height": 70,
+        "marginLeft": 0,
+        "marginTop": 40,
+        "transform": Array [
+          Object {
+            "rotate": "-36deg",
+          },
+        ],
+        "width": 70,
+        "zIndex": 100,
+      }
+    }
+  />
+  <View
+    key="1"
+    style={
+      Object {
+        "backgroundColor": "red",
+        "borderRadius": 10,
+        "height": 70,
+        "marginLeft": -20,
+        "marginTop": 20,
+        "transform": Array [
+          Object {
+            "rotate": "-18deg",
+          },
+        ],
+        "width": 70,
+        "zIndex": 101,
+      }
+    }
+  />
+  <View
+    key="2"
+    style={
+      Object {
+        "backgroundColor": "blue",
+        "borderRadius": 10,
+        "height": 70,
+        "marginLeft": -20,
+        "marginTop": 6.666666666666667,
+        "transform": Array [
+          Object {
+            "rotate": "0deg",
+          },
+        ],
+        "width": 70,
+        "zIndex": 102,
+      }
+    }
+  />
+  <View
+    key="3"
+    style={
+      Object {
+        "backgroundColor": "red",
+        "borderRadius": 10,
+        "height": 70,
+        "marginLeft": -20,
+        "marginTop": 20,
+        "transform": Array [
+          Object {
+            "rotate": "18deg",
+          },
+        ],
+        "width": 70,
+        "zIndex": 103,
+      }
+    }
+  />
+  <View
+    key="4"
+    style={
+      Object {
+        "backgroundColor": "blue",
+        "borderRadius": 10,
+        "height": 70,
+        "marginLeft": -20,
+        "marginTop": 40,
+        "transform": Array [
+          Object {
+            "rotate": "36deg",
+          },
+        ],
+        "width": 70,
+        "zIndex": 104,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`ViewsFan class tests props tests does not crash if no prop is passed 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`ViewsFan class tests props tests does not crash if null is passed as horizontalOffset 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`ViewsFan class tests props tests does not crash if null is passed as maxAngle 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`ViewsFan class tests props tests does not crash if null is passed as verticalOffset 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`ViewsFan class tests props tests does not crash if null is passed as views 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
